@@ -1,0 +1,41 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.background
+{
+    width: 200px;
+    margin: 100px auto;
+    border: 25px solid #ee1ccb;
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+}
+
+.input
+{
+    display: flex;
+}
+
+.buttons
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+}
+
+#display
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+button
+{
+    padding: 10px;
+    font-size: 12px;
+}
